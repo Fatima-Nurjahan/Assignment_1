@@ -23,7 +23,9 @@
                 <p class="banner-description azeret-mono-normal">Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                     Lorem <br> Ipsum has been the industry's standard dummy text.</p>
+                <form onsubmit="mylinkfunction(event)">
                 <button class="banner-button">Contact with us</button>
+                </form>
             </div>
         </section>
     </header>
@@ -95,18 +97,81 @@
             </div>
         </section>
         <section class="current-target">
+            <div class="current-target-container">
+                <div class="description">
+                    <h3 class="current-target-title azeret-mono-normal title">
+                        My Current Target
+                    </h3>
+                    <p class="current-target-description azeret-mono-normal">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text.
+                    </p>
+                </div>
+                <div class="card-container">
+                    <div class="card1">
+                        <img src="assets/html.png" alt="">
+                        <h3 class="title">HTML</h3>
+                        <p class="azeret-mono-normal">Lorem Ipsum is simply dummy text of the printing.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                    <div class="card2">
+                        <img src="assets/css.png" alt="">
+                        <h3 class="azeret-mono-normal title">CSS</h3>
+                        <p class="azeret-mono-normal">Lorem Ipsum is simply dummy text of the printing.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                    <div class="card3">
+                        <img src="assets/js.png" alt="">
+                        <h3 class="title azeret-mono-normal">JavaScript</h3>
+                        <p class="azeret-mono-normal">Lorem Ipsum is simply dummy text of the printing.</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
 
+            </div>
         </section>
-        <section class="next-target">
+        <section class=" next-target">
 
         </section>
         <section class="support">
-
+            <div class="support-container">
+                <h3 class="title">I need Support</h3>
+                <p class="support-container-description azeret-mono-normal">Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.</p>
+                <div class="input">
+                    <input class="azeret-mono-normal input-field" type="text" name="" id=""
+                        placeholder="Suggest me any feedback for me">
+                    <button class="azeret-mono-normal">
+                        Submit
+                    </button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-
+        <section class="footer" id="foot">
+            <div class="footer-container">
+                <div>
+                    <p class="footer-description azeret-mono-normal">An Open Commitment by Fatima Nurjahan</p>
+                </div>
+                <div class="image">
+                    <img src="assets/facebook.png" alt="">
+                    <img src="assets/github.png" alt="">
+                    <img src="assets/linkedin-icon 1.png" alt="">
+                </div>
+            </div>
+        </section>
     </footer>
+    <script type-"text/javascript">
+
+        function mylinkfunction(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.getElementById('foot').scrollIntoView({ behavior: 'smooth' });
+        }
+
+    </script>
 </body>
 
 </html>
