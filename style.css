@@ -1,0 +1,55 @@
+/* Banner design */
+.banner {
+    background-image: url(assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 131px;
+    height: 652px;
+}
+
+.banner-container {
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 221px;
+    padding-right: 221px;
+}
+
+.banner-title {
+    font-size: 48px;
+    color: rgba(13, 19, 33, 1);
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 0px;
+}
+
+.banner-description{
+    font-size: 16px;
+    color: rgba(13, 19, 33, 0.7);
+    font-weight: 400;
+    margin-top: 20px;
+}
+.banner-button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 21px 24px 21px 24px;
+    margin-top: 20px;
+}
+
+/* Development section design */
+
+.development{
+    padding: 97px 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+}
+.development-content{
+    display: flex;
+    text-align: left;
+    justify-content: center;   /* center items horizontally */
+}
