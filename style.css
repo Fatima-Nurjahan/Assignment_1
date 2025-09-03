@@ -1,4 +1,20 @@
 /* Banner design */
+/* Shared Style */
+.azeret-mono-normal{
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    margin-bottom: 16px;
+}
+
+.title{
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-size: 32px;
+}
 .banner {
     background-image: url(assets/Hero-bg.png);
     background-size: cover;
@@ -43,13 +59,52 @@
 
 .development{
     padding: 97px 80px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     align-items: center;
+    background-color: rgba(13, 19, 33, 0.02);;
 }
 .development-content{
     display: flex;
     text-align: left;
     justify-content: center;   /* center items horizontally */
+    justify-content: space-between;
+    gap: 300px;
+    padding: 48px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.dev-title{
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.purpose-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+/* Inspiration Section */
+.inspiration-container{
+    text-align: center;
+    padding: 100px 300px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.video-container{
+    border-radius: 20px;  /* rounded corners */
+  padding: 20px;
+  border: 1px solid rgb(201, 198, 198);
+  height: 500px;
+}
+.video-container iframe{
+    border-radius: 20px;
+    width: 100%; 
+    height: 100%;/* rounded corners */
 }
